@@ -1,0 +1,7 @@
+---
+applications:
+  - name: watson-assistant-duo-shpe-nc
+    command: npm start
+    buildpack: sdk-for-nodejs
+    env:
+      NODE_ENV: production
